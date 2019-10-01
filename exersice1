@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+void star()
+{
+	cout << "This is lab 4" << endl;
+	cout << "ABDALLA, Do Exercise" << endl;
+
+}
+
+
+int main()
+{
+	int x;
+	int y;
+	int z; 
+	star();
+	
+	cout << "Please Enter an integer: ";
+	cin >> x;
+	cout << "Please Enter an integer: ";
+	cin >> y;
+
+	z = x + y;
+	cout << "The result is: "<< z << endl;
+
+	system("PAUSE");
+	return 0;
+}
