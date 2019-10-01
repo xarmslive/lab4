@@ -1,0 +1,31 @@
+#include <iostream> 
+
+using namespace std;
+
+#define price 9.90 
+
+int main()
+
+{
+
+	int quantity, DISC = 10;
+
+	double totalprice;
+
+
+
+	cout << "Please, Enter quantity purchased: ";
+
+	cin >> quantity;
+
+
+
+	totalprice = (price * quantity) * (100 - DISC) / 100.00;
+
+	cout << "The Total price is: " << totalprice << " RM" << endl;
+
+
+	system("PAUSE");
+	return 0;
+
+}
